@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2021/02/16 11:12:26.000.732,=C:\Users\ezequ\OneDrive\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2021/02/16 14:49:02.000.060,C:\Users\ezequ\OneDrive\Documents\Embarcadero\Studio\Projects\md_principal.pas=C:\Users\ezequ\OneDrive\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2021/02/16 14:49:02.000.060,C:\Users\ezequ\OneDrive\Documents\Embarcadero\Studio\Projects\md_principal.fmx=C:\Users\ezequ\OneDrive\Documents\Embarcadero\Studio\Projects\Unit2.fmx</Transaction>
+    <Transaction>2021/02/16 15:58:00.000.188,E:\psi-software\psi-bike\md_principal.pas=C:\Users\ezequ\OneDrive\Documents\Embarcadero\Studio\Projects\md_principal.pas</Transaction>
+    <Transaction>2021/02/16 15:58:00.000.200,E:\psi-software\psi-bike\md_principal.fmx=C:\Users\ezequ\OneDrive\Documents\Embarcadero\Studio\Projects\md_principal.fmx</Transaction>
+    <Transaction>2021/02/16 15:58:11.000.489,E:\psi-software\psi-bike\psi_bike.dproj=C:\Users\ezequ\OneDrive\Documents\Embarcadero\Studio\Projects\Project2.dproj</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5" Android="0049500891" Android64=""/>
+	</ActiveMobileDevice>
+</BorlandProject>

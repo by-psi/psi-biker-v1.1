@@ -1,0 +1,118 @@
+inherited F_principal_NmXhdpiPh: TF_principal_NmXhdpiPh
+  ClientHeight = 615
+  ClientWidth = 400
+  DesignerMasterStyle = 0
+  inherited Layout1: TLayout
+    Size.Width = 400.000000000000000000
+    inherited bg_header: TRectangle
+      Size.Width = 400.000000000000000000
+      inherited Label1: TLabel
+        Size.Width = 400.000000000000000000
+        TextSettings.Font.StyleExt = {00060000000000000004000000}
+        inherited bt_sair: TImage
+          MultiResBitmap.Height = 32
+          MultiResBitmap.Width = 32
+          MultiResBitmap = <
+            item
+              Width = 32
+              Height = 32
+              PNG = {
+                89504E470D0A1A0A0000000D4948445200000020000000200806000000737A7A
+                F4000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+                02C2494441545847ED963B881351148627E3B35831E2035CB0F1818522360A36
+                36A262237656C216B68A580836A6D2C2D20505058B2D54528816A64D11100221
+                8504027912CCFB491EE6E96EFCCFDD3FBB3B994976C1CC56F920997BFF73E69E
+                7BCFDC7B66B439736649229138DF6EB77B954AE525A5DDC3E572E9C32DD46AB5
+                2734ED0EC964F21A632B3A9D4E9626FB9055379BCD1BA1506841FA8CAD48A7D3
+                A794935D0402817D8CA5C8E57227442F168BE7BC5EEF5EE5641785426181710D
+                D06C2F9148E400E399C0EA1FD2CD1EE2F1F861C632D068347EB0696B161C8C61
+                20954A2D8A713018AC4ABFD7EBADF5FBFDD5D14FDD390BEAF5FA1715710B7EBF
+                FF28CD9ADBEDDE43D900CDFF4F2C16BBC831372897CB8F695640929361F8D134
+                1BF2F9FC5D0C6A00294FD23C5B7C3EDF11A47DB9D56A7DC273BE455981E2F38D
+                F115901CEB964DA2D1E8D96EB7FB01FBE0A3648FF2F64CDAE90226F48A6E0ACA
+                8609204B97289B80ED26DDAC0987C387E82B2F93371E8F47CEBC0385E7F2BA3A
+                1C62F5DFE96E9A00AAE1554AB23F96A422CAE62C954AF7284BADB82FBE96D067
+                38AAEDE3209D03B163D0FDD257CE004D35017627EE7C9AADED32A818B1C2AF94
+                4C604507C50713F9257D690B683A3299CC6D69638577C466053274417C909DE7
+                94368171458C18E818254BC4073BFFEFA82DA0E9C0EBF727DB53111F7CB434D9
+                D5745E355DD79D72C5EAD4E09390180EC0EE5676FC06C418EA110A1B13C0EE5F
+                92ABD3E97CA6040B70A3CED829F993890862C2FBE0AD68720AE46A051ECF49B9
+                6291EF95308EA44760D704CE7559ECC160F0382503EA66C0AE09045E9B66D750
+                70CEA81140369BBD4E591D4F04EF888EE7FF9BB2896AB5FA48DD0C9089D39465
+                DCC55170D4927794AD41E02B6A040BB079D4EE9F06BE889FD2DD046ACB32DDB6
+                07C5E701565B4029EE63D69FE5FB8FA61D81A3F602136EFC01C8CC6BCA73E68C
+                A169FF00E20C550B50E37F560000000049454E44AE426082}
+              FileName = 'E:\psi-software\psi-bike\Imagens\man-cycling_big-blank.png'
+            end>
+          Position.X = 354.000000000000000000
+        end
+      end
+    end
+  end
+  inherited Layout2: TLayout
+    Size.Width = 380.000000000000000000
+    Size.Height = 538.000000000000000000
+    inherited Label2: TLabel
+      Size.Width = 380.000000000000000000
+      inherited ed_origem: TEdit
+        Position.Y = 33.000000000000000000
+        Size.Width = 380.000000000000000000
+        Size.Height = 32.000000000000000000
+      end
+    end
+    inherited Label3: TLabel
+      Size.Width = 380.000000000000000000
+      inherited ed_destino: TEdit
+        Position.Y = 33.000000000000000000
+        Size.Width = 380.000000000000000000
+        Size.Height = 32.000000000000000000
+      end
+    end
+    inherited lb_distancia: TLabel
+      Size.Width = 380.000000000000000000
+    end
+    inherited lb_tempo: TLabel
+      Size.Width = 380.000000000000000000
+    end
+    inherited Layout3: TLayout
+      Size.Width = 380.000000000000000000
+      inherited logo: TImage
+        MultiResBitmap.Height = 640
+        MultiResBitmap.Width = 640
+        Size.Width = 380.000000000000000000
+      end
+      inherited Label7: TLabel
+        Size.Width = 380.000000000000000000
+      end
+      inherited Label8: TLabel
+        Size.Width = 380.000000000000000000
+      end
+    end
+    inherited bt_calcular: TRectangle
+      Position.Y = 438.000000000000000000
+      Size.Width = 380.000000000000000000
+      inherited bt_1: TSpeedButton
+        Size.Width = 380.000000000000000000
+        Size.Height = 48.000000000000000000
+      end
+    end
+    inherited bt_exibirrota: TRectangle
+      Position.Y = 493.000000000000000000
+      Size.Width = 380.000000000000000000
+      inherited bt_2: TSpeedButton
+        Size.Width = 380.000000000000000000
+        Size.Height = 48.000000000000000000
+      end
+    end
+    inherited Layout4: TLayout
+      Size.Width = 380.000000000000000000
+      inherited RadioButton_3: TRadioButton
+        Position.X = 260.000000000000000000
+      end
+      inherited Label4: TLabel
+        Size.Width = 380.000000000000000000
+        TextSettings.Font.StyleExt = {00060000000000000004000000}
+      end
+    end
+  end
+end

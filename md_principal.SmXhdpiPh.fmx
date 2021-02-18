@@ -1,0 +1,64 @@
+inherited F_principal_SmXhdpiPh: TF_principal_SmXhdpiPh
+  ClientHeight = 375
+  ClientWidth = 250
+  DesignerMasterStyle = 0
+  inherited Layout1: TLayout
+    Size.Width = 250.000000000000000000
+    inherited bg_header: TRectangle
+      Size.Width = 250.000000000000000000
+      inherited Label1: TLabel
+        Size.Width = 250.000000000000000000
+        TextSettings.Font.StyleExt = {00060000000000000004000000}
+      end
+      inherited Image1: TImage
+        MultiResBitmap.Height = 32
+        MultiResBitmap.Width = 32
+        Size.Height = 57.000000000000000000
+      end
+    end
+  end
+  inherited Layout2: TLayout
+    Size.Width = 230.000000000000000000
+    Size.Height = 298.000000000000000000
+    inherited Label2: TLabel
+      Size.Width = 230.000000000000000000
+      inherited ed_origem: TEdit
+        Position.Y = 33.000000000000000000
+        Size.Width = 230.000000000000000000
+        Size.Height = 32.000000000000000000
+      end
+    end
+    inherited Label3: TLabel
+      Size.Width = 230.000000000000000000
+      inherited ed_destino: TEdit
+        Position.Y = 33.000000000000000000
+        Size.Width = 230.000000000000000000
+        Size.Height = 32.000000000000000000
+      end
+    end
+    inherited lb_distancia: TLabel
+      Size.Width = 230.000000000000000000
+    end
+    inherited bt_calcular: TRectangle
+      Size.Width = 230.000000000000000000
+      inherited Label4: TLabel
+        Size.Width = 210.000000000000000000
+      end
+    end
+    inherited lb_tempo: TLabel
+      Size.Width = 230.000000000000000000
+    end
+    inherited Layout3: TLayout
+      Position.Y = 55.000000000000000000
+      Size.Width = 230.000000000000000000
+      inherited Label7: TLabel [0]
+      end
+      inherited Label8: TLabel [1]
+      end
+      inherited logo: TImage [2]
+        MultiResBitmap.Height = 640
+        MultiResBitmap.Width = 640
+      end
+    end
+  end
+end
