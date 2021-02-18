@@ -1,4 +1,4 @@
-// http://maps.googleapis.com/maps/api/distancematrix/json?origins={origem}&destinations={destino}&mode=driving&language=pt-BR&key=???
+// http://maps.googleapis.com/maps/api/distancematrix/json?origins={origem}&destinations={destino}&mode=driving&language=pt-BR&key={YOUR_API_KEY}
 
 {
     "destination_addresses": [
