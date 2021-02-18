@@ -102,18 +102,18 @@ var
   var key: char;
 
 begin
-//  calcula a melhor rota entre {origem} e {destino} e retorna a dist‚ncia e tempo:
-//  https://developers.google.com/maps/documentation/distance-matrix/overview {documentaÁ„o sobre a api}
+//  calcula a melhor rota entre {origem} e {destino} e retorna a dist√¢ncia e tempo:
+//  https://developers.google.com/maps/documentation/distance-matrix/overview {documenta√ß√£o sobre a api}
 //  https://maps.googleapis.com/maps/api/distancematrix/json?origins={origem}&destinations={destino}&mode=bicycling&language=pt-BR&key={key};
 
 //  calcula a melhor rota entre {origem} e {destino} e retorna as coordenadas para exibir o mapa da rota sugerida:
-//  https://developers.google.com/maps/documentation/directions/start {documentaÁ„o}
+//  https://developers.google.com/maps/documentation/directions/start {documenta√ß√£o}
 //  https://maps.googleapis.com/maps/api/directions/json?origin={origem}&destination={destino}&key=YOUR_API_KEY
 
   rst_Request.Resource := 'json?origins={origem}&destinations={destino}&mode={opcao}&language=pt-BR&key={my_key}';
   rst_Request.Params.AddUrlSegment('origem', ed_origem.Text);
   rst_Request.Params.AddUrlSegment('destino', ed_destino.Text);
-  rst_Request.Params.AddUrlSegment('my_key', 'AIzaSyAf1qrqUe2dV9hUpE-WiAI51jzcFeqHcUw');
+  rst_Request.Params.AddUrlSegment('my_key', 'YOUR_API_KEY');
   if RadioButton_1.IsChecked then
   rst_Request.Params.AddUrlSegment('opcao', 'bicycling') else
   if RadioButton_2.IsChecked then
@@ -144,7 +144,7 @@ begin
   s_duracao   := obj_duracao.GetValue('text').Value;
   v_duracao   := StrToInt(obj_duracao.GetValue('value').Value);
 
-  lb_distancia.Text := 'Dist‚ncia a percorrer: '+s_distancia;
+  lb_distancia.Text := 'Dist√¢ncia a percorrer: '+s_distancia;
   lb_tempo.Text := 'Tempo: '+s_duracao;
 
   media_v := (v_distancia / v_duracao) * 3.6;
