@@ -30,7 +30,7 @@ object F_principal: TF_principal
         TextSettings.Font.StyleExt = {00060000000000000004000000}
         TextSettings.FontColor = claWhite
         TextSettings.HorzAlign = Center
-        Text = 'PSI-BIKE'
+        Text = 'PSI-BIKER'
         TabOrder = 0
         object bt_sair: TImage
           MultiResBitmap.Height = 32
@@ -3220,7 +3220,7 @@ object F_principal: TF_principal
     Params = <>
     Resource = 
       'json?origins=Belo+Horizonte+MG&destinations=Lagoa+Santa+MG&mode=' +
-      'driving&language=pt-BR&key=AIzaSyAf1qrqUe2dV9hUpE-WiAI51jzcFeqHc' +
+      'driving&language=pt-BR&key=YOUR_API_KEY' +
       'Uw'
     SynchronizedEvents = False
     Left = 96
