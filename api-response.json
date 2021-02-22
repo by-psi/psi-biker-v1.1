@@ -1,0 +1,28 @@
+// http://maps.googleapis.com/maps/api/distancematrix/json?origins={origem}&destinations={destino}&mode=driving&language=pt-BR&key={YOUR_API_KEY}
+
+{
+    "destination_addresses": [
+        "Ipatinga - MG, Brasil"
+    ],
+    "origin_addresses": [
+        "Belo Horizonte, MG, Brasil"
+    ],
+    "rows": [
+        {
+            "elements": [
+                {
+                    "distance": {
+                        "text": "211 km",
+                        "value": 211008
+                    },
+                    "duration": {
+                        "text": "12 horas 54 minutos",
+                        "value": 46425
+                    },
+                    "status": "OK"
+                }
+            ]
+        }
+    ],
+    "status": "OK"
+}
