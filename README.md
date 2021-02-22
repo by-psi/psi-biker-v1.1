@@ -12,4 +12,4 @@ Quer ganhar R$20?
 https://indicapagbank.page.link/QduumcKgCNC8eKcY9
 
 by <a href="https://ezequiasmartins.blogspot.com/" target="_blank">Ezequias Martins</a> ® 1999-2021 Direitos Reservados
-<p><a href="https://ezequiasmartins.blogspot.com/" target="_blank"><img src="assinatura.jpg"></a></p>
+<p><a href="https://ezequiasmartins.blogspot.com/" target="_blank"><img src="Imagens/assinatura.jpg"></a></p>
