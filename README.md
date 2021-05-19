@@ -6,7 +6,7 @@ usando a API Distance Matrix do Gooogle Maps, desenvolvido em Delphi 10.3 Rio us
 <img src="Imagens/psi-biker-1.jpg" width="100"> <img src="Imagens/psi-biker-2.jpg" width="100"> <img src="Imagens/psi-biker-3.jpg" width="100"> 
 
 ## Doações
-Como agradecimento, e apoio, se desejar fazer uma contribuição, poderá fazer via transferência ou depósito bancário, minha chave PIX (celular) é 31-984107540 (CEF Ag.0815 Op.013 Conta 6214-9 - Ezequias Martins da Costa Barbosa). Desde já agradeço e conto com a sua colaração!
+Como agradecimento, e apoio, se desejar fazer uma contribuição, poderá fazer via transferência ou depósito bancário, minha chave PIX (CNPJ) é 18.478.810/0001-13 PagSeguro-UOL (PagBank) p/ Ezequias Martins da Costa Barbosa. Desde já agradeço e conto com a sua colaração!
 
 ## PagBank - PagSeguro UOL
 Quer ganhar R$20? (cashback)
