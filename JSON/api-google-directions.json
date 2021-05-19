@@ -1,0 +1,44 @@
+{
+	"method": "GET",
+	"url": "https:\/\/maps.googleapis.com\/maps\/api\/directions",
+	"resource": "json?origin={origem}&destination={destino}&key={my_api_key}",
+	"contenttype": "text\/html",
+	"auth": {
+		"method": "NONE",
+		"username": "",
+		"passwordkey": "",
+		"password": "",
+		"clientid": "",
+		"clientsecret": "",
+		"authcode": "",
+		"accesstoken": "",
+		"accesstokensecret": "",
+		"requesttoken": "",
+		"requesttokensecret": "",
+		"refreshtoken": "",
+		"signaturemethod": "",
+		"responsetype": "",
+		"endpointauth": "",
+		"endpointaccesstoken": "",
+		"endpointrequesttoken": "",
+		"endpointredirect": "",
+		"authscope": ""
+	},
+	"parameters": [{
+		"name": "origem",
+		"value": "Rua dos Comanches, 870 Santa Mônica",
+		"kind": "URL-SEGMENT",
+		"encode": true
+	}, {
+		"name": "destino",
+		"value": "Alameda das Falcatas, 675 São Luiz",
+		"kind": "URL-SEGMENT",
+		"encode": true
+	}, {
+		"name": "my_api_key",
+		"value": "AIzaSyAf1qrqUe2dV9hUpE-WiAI51jzcFeqHcUw",
+		"kind": "URL-SEGMENT",
+		"encode": true
+	}],
+	"body": ""
+}
