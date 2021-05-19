@@ -26,17 +26,17 @@
 	},
 	"parameters": [{
 		"name": "origem",
-		"value": "Rua dos Comanches, 870 Santa Mônica",
+		"value": "Rua dos Comanches, 870 Santa MÃ´nica",
 		"kind": "URL-SEGMENT",
 		"encode": true
 	}, {
 		"name": "destino",
-		"value": "Alameda das Falcatas, 675 São Luiz",
+		"value": "Alameda das Falcatas, 675 SÃ£o Luiz",
 		"kind": "URL-SEGMENT",
 		"encode": true
 	}, {
 		"name": "my_api_key",
-		"value": "AIzaSyAf1qrqUe2dV9hUpE-WiAI51jzcFeqHcUw",
+		"value": "insert_my-api_key",
 		"kind": "URL-SEGMENT",
 		"encode": true
 	}],
