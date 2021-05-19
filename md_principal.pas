@@ -119,7 +119,7 @@ begin
   for I := 0 to High(APermissions) do
   begin
     if (APermissions[I] = Access_Coarse_Location) or (APermissions[I] = Access_Fine_Location) then
-    RationaleMsg := 'O app precisa ter acesso ao GPS para obter sua localizaÁ„o'
+    RationaleMsg := 'O app precisa ter acesso ao GPS para obter sua localiza√ß√£o'
   end;
   TDialogService.ShowMessage(RationaleMsg, procedure(const AResult: TModalResult)
   begin
@@ -139,7 +139,7 @@ begin
   F_principal.LocationSensor.Active := true else
   begin
     Switch.IsChecked := false;
-    TDialogService.ShowMessage('N„o foi possÌvel obter a localizaÁ„o porque o app est· sem permiss„o de acesso ao GPS')
+    TDialogService.ShowMessage('N√£o foi poss√≠vel obter a localiza√ß√£o porque o app est√° sem permiss√£o de acesso ao GPS')
   end;
 end;
 
@@ -151,7 +151,7 @@ var
 begin
   msg :=
   Address.Thoroughfare + ', ' + { Rua }
-  Address.FeatureName + ', ' + { N˙mero }
+  Address.FeatureName + ', ' + { N√∫mero }
   Address.SubLocality + ', ' + { Bairro }
   Address.PostalCode; { CEP }
 //Address.SubThoroughfare + ', ' + { Numero }
@@ -202,7 +202,7 @@ begin
     if Assigned(FGeocoder) and not FGeocoder.Geocoding then
     FGeocoder.GeocodeReverse(Location);
   except
-    ShowMessage('Erro no serviÁo de GeoLocalizaÁ„o');
+    ShowMessage('Erro no servi√ßo de GeoLocaliza√ß√£o');
   end;
 end;
 
@@ -252,7 +252,7 @@ begin
   'REST & JSON + API Google Maps'+#13#10+
   'baseado no modelo criado por Heber {99 Coders} e adaptado por Ezequias Martins.'+#13#10+#13#10+
   'Gostou deste App?'+#13#10+
-  'Ajude-nos c/ uma doaÁ„o a partir de R$ 1,00 via PIX (CNPJ 18.478.810/0001-13)'+#13#10+#13#10+
+  'Ajude-nos c/ uma doa√ß√£o a partir de R$ 1,00 via PIX (CNPJ 18.478.810/0001-13)'+#13#10+#13#10+
   'Acesse: psi-software.com.br'+#13#10+
   'Contato:'+#13#10+
   'ezequiasmartins@gmail.com'+#13#10+
@@ -292,8 +292,8 @@ var
 begin
 //  API Google Distance-Matrix
 //  --------------------------
-//  calcula a melhor rota entre {origem} e {destino} e retorna a dist‚ncia e tempo:
-//  https://developers.google.com/maps/documentation/distance-matrix/overview {documentaÁ„o sobre a api}
+//  calcula a melhor rota entre {origem} e {destino} e retorna a dist√¢ncia e tempo:
+//  https://developers.google.com/maps/documentation/distance-matrix/overview {documenta√ß√£o sobre a api}
 //  https://maps.googleapis.com/maps/api/distancematrix/json?origins={origem}&destinations={destino}&mode=bicycling&language=pt-BR&key={key};
 
   r_client.BaseURL := 'https://maps.googleapis.com/maps/api/distancematrix';
@@ -301,7 +301,7 @@ begin
 
   r_request.Params.AddUrlSegment('origem', ed_origem.Text);
   r_request.Params.AddUrlSegment('destino', ed_destino.Text);
-  r_request.Params.AddUrlSegment('api_key', 'AIzaSyAf1qrqUe2dV9hUpE-WiAI51jzcFeqHcUw');
+  r_request.Params.AddUrlSegment('api_key', 'enter_here_YOUR_API_KEY');
 
   if RadioButton_1.IsChecked = True then
   r_request.Params.AddUrlSegment('opcao', 'bicycling') else
@@ -336,7 +336,7 @@ begin
   s_duracao   := obj_duracao.GetValue('text').Value;
   v_duracao   := StrToInt(obj_duracao.GetValue('value').Value);
 
-  lb_distancia.Text := 'Dist‚ncia a percorrer: '+s_distancia;
+  lb_distancia.Text := 'Dist√¢ncia a percorrer: '+s_distancia;
   lb_tempo.Text := 'Tempo estimado: '+s_duracao;
 
   media_v := (v_distancia / v_duracao) * 3.6;
@@ -347,7 +347,7 @@ begin
 //  API Google Directions
 //  ---------------------
 //  calcula a melhor rota entre {origem} e {destino} e retorna as coordenadas para exibir o mapa da rota sugerida:
-//  https://developers.google.com/maps/documentation/directions/start {documentaÁ„o}
+//  https://developers.google.com/maps/documentation/directions/start {documenta√ß√£o}
 //  https://maps.googleapis.com/maps/api/directions/json?origin={origem}&destination={destino}&key=YOUR_API_KEY
 //  ------------------------------------------------------------------------------------------------------------
 //  r_client.BaseURL := 'https://maps.googleapis.com/maps/api/directions';
@@ -355,7 +355,7 @@ begin
 {
   r_request.Params.AddUrlSegment('origem', ed_origem.Text);
   r_request.Params.AddUrlSegment('destino', ed_destino.Text);
-  r_request.Params.AddUrlSegment('api_key', 'AIzaSyAf1qrqUe2dV9hUpE-WiAI51jzcFeqHcUw');
+  r_request.Params.AddUrlSegment('api_key', 'enter_here_YOUR_API_KEY');
 
   if RadioButton_1.IsChecked = True then r_request.Params.AddUrlSegment('opcao', 'bicycling') else
   if RadioButton_2.IsChecked = True then r_request.Params.AddUrlSegment('opcao', 'driving') else
@@ -379,7 +379,7 @@ begin
   obj_x := obj_elements.GetValue('latitude') as TJSONObject;
   obj_y := obj_elements.GetValue('longitude') as TJSONObject;
 
-  // acrescente um componente TMapView no lugar de WebBrowser_2 para este cÛdigo:
+  // acrescente um componente TMapView no lugar de WebBrowser_2 para este c√≥digo:
 
   // tipo de mapa ( Normal/Satellite/Hibrid )
   MapView.MapType := TMapType.Normal;
