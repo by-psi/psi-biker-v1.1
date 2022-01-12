@@ -9,8 +9,7 @@ usando a API Distance Matrix do Gooogle Maps, desenvolvido em Delphi 10.3 Rio us
 Como agradecimento, e apoio, se desejar fazer uma contribuição, poderá fazer via transferência ou depósito bancário, minha chave PIX (CNPJ) é 18.478.810/0001-13 PagSeguro-UOL (PagBank) p/ Ezequias Martins da Costa Barbosa. Desde já agradeço e conto com a sua colaração!
 
 ## Contato
-telefone: (31) 98410-7540 WhatsApp
-email: ezequiasmartins@gmail.com
-
-by <a href="https://ezequiasmartins.blogspot.com/" target="_blank">Ezequias Martins</a> ® 1999-2022 Direitos Reservados
+<p>telefone: (31) 98410-7540 WhatsApp</p>
+<p>email: ezequiasmartins@gmail.com</p>
+<p>by <a href="https://ezequiasmartins.blogspot.com/" target="_blank">Ezequias Martins</a> ® 1999-2022 Direitos Reservados</p>
 <p><a href="https://ezequiasmartins.blogspot.com/" target="_blank"><img src="Imagens/assinatura.jpg"></a></p>
