@@ -12,5 +12,5 @@ Como agradecimento, e apoio, se desejar fazer uma contribuição, poderá fazer 
 telefone: (31) 98410-7540 WhatsApp
 email: ezequiasmartins@gmail.com
 
-by <a href="https://ezequiasmartins.blogspot.com/" target="_blank">Ezequias Martins</a> ® 1999-2021 Direitos Reservados
+by <a href="https://ezequiasmartins.blogspot.com/" target="_blank">Ezequias Martins</a> ® 1999-2022 Direitos Reservados
 <p><a href="https://ezequiasmartins.blogspot.com/" target="_blank"><img src="Imagens/assinatura.jpg"></a></p>
