@@ -8,10 +8,9 @@ usando a API Distance Matrix do Gooogle Maps, desenvolvido em Delphi 10.3 Rio us
 ## Doações
 Como agradecimento, e apoio, se desejar fazer uma contribuição, poderá fazer via transferência ou depósito bancário, minha chave PIX (CNPJ) é 18.478.810/0001-13 PagSeguro-UOL (PagBank) p/ Ezequias Martins da Costa Barbosa. Desde já agradeço e conto com a sua colaração!
 
-## PagBank - PagSeguro UOL
-Quer ganhar R$20? (cashback)
-- baixe e instale o App do PagBank do PagSeguro UOL, vc ganha R$ 20,00  e me ajuda também. Use meu link de indicação para abrir uma conta grátis no PagBank pelo celular. Faça uma recarga de celular ou pague uma conta, e pronto! (eu mesmo já utilizo a muito tempo inclusive para pagamentos e transferência via Pix).
-https://indicapagbank.page.link/QduumcKgCNC8eKcY9
+## Contato
+telefone: (31) 98410-7540 WhatsApp
+email: ezequiasmartins@gmail.com
 
 by <a href="https://ezequiasmartins.blogspot.com/" target="_blank">Ezequias Martins</a> ® 1999-2021 Direitos Reservados
 <p><a href="https://ezequiasmartins.blogspot.com/" target="_blank"><img src="Imagens/assinatura.jpg"></a></p>
