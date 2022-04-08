@@ -1,7 +1,11 @@
 <img src="Imagens/psi-software.png" width="100"><br>
 ## psi-biker v1.1 (Delphi 10.3 Rio)
 App Mobile p/ Bikers calcularem o Tempo e Distância de uma rota entre Origem e Destino (modelo de estudo) 
-usando a API Distance Matrix do Gooogle Maps, desenvolvido em Delphi 10.3 Rio usando REST e JSON
+usando a API Distance Matrix do Gooogle Maps, desenvolvido com as ferramentas e tecnologias:
+<ul>
+  <li>Delphi 10.3 Rio Commmunity Edition</li>
+  <li>Rest & JSON</li>
+</ul>
 
 <img src="Imagens/psi-biker-1.jpg" width="100"> <img src="Imagens/psi-biker-2.jpg" width="100"> <img src="Imagens/psi-biker-3.jpg" width="100"> 
 
