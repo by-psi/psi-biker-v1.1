@@ -1,5 +1,5 @@
 <img src="Imagens/psi-software.png" width="100"><br>
-## psi-biker v1.1 (Delphi 10.3 Rio)
+## Action Button Sheet
 Uma aba inferior interativa de alto desempenho com opções totalmente configuráveis
 
 <!--img src="Imagens/psi-biker-1.jpg" width="100" --> 
