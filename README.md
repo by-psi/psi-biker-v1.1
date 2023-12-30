@@ -1,6 +1,6 @@
 <img src="Imagens/psi-software.png" width="100"><br>
 ## PSI-BIKER 1.0
-- Aplicativo em React Native utilizando REST/API e JSON para utilização das APIs do Google Maps para cálculo de rotas (tempo e distância) para Bikers
+- Aplicativo em Delphi 10.3 Rio utilizando REST/API e JSON para cálculo de rotas (tempo e distância) para Bikers utilizando APIs do Google Maps.
 
 <img src="Imagens/psi-biker-1.jpg" width="100"> <img src="Imagens/psi-biker-2.jpg" width="100" > <img src="Imagens/psi-biker-3.jpg" width="100" > 
 
