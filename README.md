@@ -7,7 +7,7 @@ Uma aba inferior interativa de alto desempenho com opções totalmente configur�
 <!--img src="Imagens/psi-biker-3.jpg" width="100" --> 
 
 ## Contato
-<p>telefone: (31) 98410-7540 WhatsApp</p>
-<p>email: ezequiasmartins@gmail.com</p>
+<p>telefone: (31) 98410-7540 WhatsApp<br>
+email: ezequiasmartins@gmail.com</p>
 <p>by <a href="https://ezequiasmartins.blogspot.com/" target="_blank">Ezequias Martins</a> ® 1999-2022 Direitos Reservados</p>
 <p><a href="https://ezequiasmartins.blogspot.com/" target="_blank"><img src="Imagens/assinatura.jpg"></a></p>
